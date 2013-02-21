@@ -1,0 +1,15 @@
+h1.heading { margin-bottom: 20px; }
+
+.well form { margin-bottom: 0; }
+.well h3 { margin-top: 0; }
+
+#choices li.success { color: #468847; }
+#choices li.error {
+	color: #b94a48;
+	text-decoration: line-through;
+	}
+
+.footer {
+	text-align: right;
+	color: #999;
+	}

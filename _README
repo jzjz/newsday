@@ -1,0 +1,36 @@
+Test project: Create a trivia quiz using javascript and jQuery.
+
+Newsday will provide a feed of questions and answers.
+
+HYPERLINK http://data.newsday.com/feeds/trivia_test.php
+
+For JSONP, you can add a callback parameter -  HYPERLINK http://data.newsday.com/feeds/trivia_test.php?callback=test
+
+Here's a typical question:
+
+{
+	"question2": "What is the Long Island minor league baseball team?",
+	"choices":
+		[
+			{ "id": "1", "text": "Islanders" },
+			{ "id": "2", "text": "Dodgers" },
+			{ "id": "3", "text": "Ducks" },
+			{ "id": "4", "text": "Flames" }
+		],
+	"correct": "3",
+	"otherReaders": "50" //this is supposed to be the running percentage of correct responses from other readers
+},
+
+The quiz will have five questions. The questions should display one at a time. It should work something like this - 
+
+	Reader shown a question.
+
+	Reader submits response.
+
+	Reader shown the correct answer, a running score for the number of correct answers and the percentage correct answers for other readers. For example, after the third question, it might say "You have answered 2 of 3 correctly for a score of 67%. Among all readers, 55% answered this question correctly."
+
+	Reader clicks link to see the next question.
+
+After you're finished, either send us a link to the working quiz or send us files to deploy on our server.
+
+Please don't hesitate to ask questions if anything needs to be clarified.

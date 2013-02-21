@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Newsday Code Project</title>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+	<h1 class="heading">Long Island Trivia</h1>
+	<div id="trivia">
+		<div id="alert" class="alert alert-info">Test your knowledge by answering the question below.</div>
+		<div class="well">
+			<form>
+				<h3 id="question"></h3>
+				<ul id="choices" class="unstyled"></ul>
+				<button type="submit" id="submit" class="btn">Submit</button>
+				<button id="next" class="btn btn-info hide">Next &raquo;</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<p>&copy; 2013 John A. Zanussi</p>
+	</div>
+</div>
+<script src="/js/jquery.js"></script>
+<script src="/js/trivia.js"></script>
+<script src="http://data.newsday.com/feeds/trivia_test.php?callback=init_trivia"></script>
+</body>
+</html>
